@@ -1,0 +1,38 @@
+ls // List files
+cat // does something random, skip this if you don't wanna restart
+echo // Blank line
+cd ..
+cd shell-code
+cd xweonw
+ps -j // Sanity checking
+clear // Part A done
+sleep 5 & // Should return to prompt immediately
+sleep 3 && python3 print.py // Should print after 3 seconds
+sleep 3 &&& python3 print.py // Both should occur in tandem
+clear // Basic Part B done
+python3 delay.py &&& python3 delay.py &&& python3 delay.py // Should print everything together
+python3 delay.py & // Should print a digit every second and also take new input
+sleep 5 // do this before the prev output finishes, you should still be getting the output of previous code while fg sleep is running
+ps -j // Sanity checking
+woenfwo && sleep 2 // Should give error and wait for 2 sec
+exi & // Should give error after new prompt
+cd .. && cd shell-code // Should not change directory
+cd shell-code && cd .. // Should give error and go to prev directory
+cd shell-code
+cd .. &&& cd shell-code // Should do random I think
+cd shell-code && ps -j // as expected
+ls &&& cd .. // Random ig
+clear // Check if you are getting BG process finished prompts! Part B advanced check done
+sleep 5 //
+Ctrl + C // Should kill the sleep
+ps -j // Check!
+sleep 5 &
+Ctrl + C // Should not do anything
+sleep 1 && ps -j && sleep 100
+Ctrl + C // In the 100 sleep, check ps output
+sleep 100 &&& ps -j &&& echo "All should get printed"
+Ctrl + C // Check the output
+ps -j // Sanity check
+type-partial-command-press Ctrl + C // Should get a new prompt
+clear // Part C basic checking done 
+exit // Check for mem leaks using valgrind
