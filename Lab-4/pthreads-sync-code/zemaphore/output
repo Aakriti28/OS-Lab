@@ -1,0 +1,38 @@
+Running test-zem.c
+This is main thread. This should print first
+This is thread 1
+One thread has printed
+This is thread 2
+Second thread has printed
+
+Running test-toggle.c
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2
+This is thread 0
+This is thread 1
+This is thread 2

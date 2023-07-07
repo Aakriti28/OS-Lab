@@ -1,0 +1,4 @@
+Your shell must gracefully handle errors. An empty command (typing return) should simply cause
+the shell to display a prompt again without any error messages. For all incorrect commands or any other
+erroneous input, the shell itself should not crash. It must simply notify the error and move on to prompt
+the user for the next command.
